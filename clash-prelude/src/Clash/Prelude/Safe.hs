@@ -85,6 +85,8 @@ module Clash.Prelude.Safe
   , module Clash.Sized.RTree
     -- ** Annotations
   , module Clash.Annotations.TopEntity
+    -- ** Generics
+  , module GHC.Generics
     -- ** Type-level natural numbers
   , module GHC.TypeLits
   , module GHC.TypeLits.Extra
@@ -116,6 +118,7 @@ where
 
 import           Control.Applicative
 import           Data.Bits
+import           GHC.Generics
 import           GHC.TypeLits
 import           GHC.TypeLits.Extra
 import           Prelude hiding
